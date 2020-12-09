@@ -13,7 +13,6 @@ import Twitter from '@material-ui/icons/Twitter';
 import Youtube from '@material-ui/icons/YouTube';
 
 export default class Sidebar extends React.Component {
-    state = {}
     render() {
 
         const active = this.props.active;

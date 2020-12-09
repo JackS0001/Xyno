@@ -5,14 +5,14 @@ const path = require('path');
 const util = require('priv-js-utility');
 
 app.on('ready', () => {
-    const window = new BrowserWindow({
+    let window = new BrowserWindow({
         width: 1344,
         height: 756,
         icon: __dirname + '/src/assets/logo_white.png',
         frame: false,
         show: false,
         webPreferences: {
-            preload: path.join(__dirname, 'preload.js'),
+            nodeIntegration: true
         }
     })
 
@@ -20,7 +20,8 @@ app.on('ready', () => {
         width: 340,
         height: 500,
         frame: false,
-        alwaysOnTop: true
+        alwaysOnTop: true,
+        icon: __dirname + '/src/assets/logo_white.png'
     })
 
     splash.loadURL(`file://${__dirname}/public/loading.html`);
