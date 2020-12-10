@@ -1,4 +1,3 @@
-import './app.scss';
 import React from 'react';
 import Faq from './Components/Pages/Faq/Faq';
 import Home from './Components/Pages/Home/Home';

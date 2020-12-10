@@ -1,5 +1,5 @@
 * {
-    background:   #102742;
+    background:   #FFFFFF;
 }
 
 #loading-bar-spinner.spinner {
@@ -16,8 +16,8 @@
     width: 40px;
     height: 40px;
     border:  solid 4px transparent;
-    border-top-color:   #4475E2 !important;
-    border-left-color: #4475E2 !important;
+    border-top-color:   #7297FF !important;
+    border-left-color: #7297FF !important;
     border-radius: 50%;
 }
 

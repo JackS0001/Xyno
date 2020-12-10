@@ -1,7 +1,7 @@
 import './Sidebar.css';
 import Nav from './Nav';
 import React from 'react';
-import logo from '../../../assets/logo_full_white.png';
+import logo from '../../../assets/logo_full_grey.png';
 
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
